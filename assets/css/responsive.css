@@ -1,0 +1,22 @@
+@media(max-width:992px) {
+    .container {
+        width: 90%;
+    }
+
+    
+
+    #cart .product-image {
+        width: 100%;
+    }
+
+    #cart .contains {
+        width: 100%;
+    }
+
+    #cart .contains .counter .txtbox
+    {
+        width: 40%;
+    }
+
+
+}

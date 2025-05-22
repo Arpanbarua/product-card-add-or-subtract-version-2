@@ -1,0 +1,175 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+ul, ol 
+{
+    list-style-type: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.container 
+{
+    width: 80%;
+    margin: auto;
+    
+}
+
+.row 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cart 
+{
+    padding: 20px 0;
+}
+
+#cart .product-image 
+{
+    width: 40%;
+    text-align: center;
+}
+
+#cart .product-image img 
+{
+    width: 100%;
+}
+
+#cart .contains 
+{
+    width: 55%;
+}
+
+#cart .contains .bill 
+{
+    font-family: "Inter", sans-serif;;
+}
+
+#cart .contains h3 
+{
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+#cart .contains a
+{
+    color: blue;
+}
+
+
+#cart .contains .ratings 
+{
+    margin: 30px 0;
+}
+
+#cart .contains a, #cart .contains>p
+{
+    font-size: 20px;
+}
+
+#cart .contains>p
+{
+    margin: 20px 0;
+}
+
+#cart .contains a:hover
+{
+    text-decoration: underline;
+    
+}
+
+#cart .contains .ratings p
+{
+    display: inline-flex;
+    align-items: center;
+    line-height: 0;
+}
+
+#cart .contains .ratings p:first-of-type 
+{
+    display: inline-block;
+}
+
+#cart .contains .deals 
+{
+    margin: 20px 0;
+}
+
+#cart .contains .price 
+{
+    color: #F57224;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+   margin-bottom: 5px;
+}
+
+#cart .contains p:nth-of-type(2) span
+{
+    text-decoration: line-through;
+}
+#cart .contains p:nth-of-type(2)
+{
+    margin-top: 10px;
+}
+
+#cart .counter 
+{
+    display: flex;
+   
+    align-items: center;
+    margin: 20px 0;
+}
+
+#cart .contains .counter button
+{
+    display: flex;
+    align-items: center;
+    line-height: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#cart .contains .counter .txtbox
+{
+    padding: 10px 0;
+    text-align: center;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+#cart .contains .counter p 
+{
+    font-size: 20px;
+}
+
+#cart .contains .counter .txtbox:focus 
+{
+ border: none;
+    outline: none;   
+}
+
+#cart .contains .checking label
+{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+#cart .contains .checking
+{
+    margin: 20px 0;
+}
