@@ -14,13 +14,13 @@ function updateBill()
     let num = Number(result.value);
      if(bkash.checked)
         {
-            let p = price*0.98;
+            let p = price*num*0.98;
             p = p.toFixed(2);
             bill.textContent = `You have to pay: ${p} tk`;
         }
         else if(nagad.checked)
         {
-            let p = price*0.985;
+            let p = price*num*0.985;
             p = p.toFixed(2);
             bill.textContent = `You have to pay: ${p} tk`;
         }
@@ -49,6 +49,8 @@ incrementBtn.addEventListener('click', function()
         result.value = num;
         decrementBtn.style.cursor = `pointer`;
         // bill.textContent = `You have to pay: ${price*num} tk`;
+        
+        
         if(bkash.checked)
         {
             let p = price*num*0.98;
@@ -66,6 +68,7 @@ incrementBtn.addEventListener('click', function()
             
             bill.textContent = `You have to pay: ${price*num} tk`;
         }
+        
     }
     else 
     {
