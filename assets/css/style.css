@@ -173,3 +173,27 @@ a
 {
     margin: 20px 0;
 }
+
+#cart .contains .checking label .avail 
+{
+    color: red;
+}
+
+#cart .billhead 
+{
+    text-decoration: underline;
+}
+
+#cart table th 
+{
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+#cart table td 
+{
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: 600;
+}
