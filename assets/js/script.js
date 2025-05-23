@@ -16,18 +16,18 @@ function updateBill()
         {
             let p = price*num*0.98;
             p = p.toFixed(2);
-            bill.textContent = `You have to pay: ${p} tk`;
+            bill.textContent = `Price is ${price} tk, quantity: ${num}, You have to pay: ${p} tk`;
         }
         else if(nagad.checked)
         {
             let p = price*num*0.985;
             p = p.toFixed(2);
-            bill.textContent = `You have to pay: ${p} tk`;
+            bill.textContent = `Price is ${price} tk, quantity: ${num}, You have to pay: ${p} tk`;
         }
         else 
         {
             
-            bill.textContent = `You have to pay: ${price} tk`;
+            bill.textContent = `Price is ${price} tk, quantity: ${num}, You have to pay: ${price} tk`;
         }
 }
 
@@ -55,18 +55,18 @@ incrementBtn.addEventListener('click', function()
         {
             let p = price*num*0.98;
             p = p.toFixed(2);
-            bill.textContent = `You have to pay: ${p} tk`;
+            bill.textContent = `Price is ${price} tk, quantity: ${num}, You have to pay: ${p} tk`;
         }
         else if(nagad.checked)
         {
             let p = price*num*0.985;
             p = p.toFixed(2);
-            bill.textContent = `You have to pay: ${p} tk`;
+            bill.textContent = `Price is ${price} tk, quantity: ${num}, You have to pay: ${p} tk`;
         }
         else 
         {
             
-            bill.textContent = `You have to pay: ${price*num} tk`;
+            bill.textContent = `Price is ${price} tk, quantity: ${num}, You have to pay: ${price*num} tk`;
         }
         
     }
@@ -90,17 +90,17 @@ decrementBtn.addEventListener('click', function()
         {
             let p = price*num*0.98;
             p = p.toFixed(2);
-            bill.textContent = `You have to pay: ${p} tk`;
+            bill.textContent = `Price is ${price} tk, quantity: ${num}, You have to pay: ${p} tk`;
         }
         else if(nagad.checked)
         {
             let p = price*num*0.985;
             p = p.toFixed(2);
-            bill.textContent = `You have to pay: ${p} tk`;
+            bill.textContent = `Price is ${price} tk, quantity: ${num}, You have to pay: ${p} tk`;
         }
         else 
         {
-            bill.textContent = `You have to pay: ${price*num} tk`;
+            bill.textContent = `Price is ${price} tk, quantity: ${num}, You have to pay: ${price*num} tk`;
         }
     }
     else 
